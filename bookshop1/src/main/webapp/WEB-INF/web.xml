@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+ 
+  version="4.0">
+  <display-name>bookshop1</display-name>
+  <session-config>
+	  <session-timeout>30</session-timeout>
+	  <cookie-config>
+		  <trcaking-mode>COOKIE</trcaking-mode>
+	  </cookie-config>
+  </session-config>
+  <context-param>
+		<param-name>app.title</param-name>
+		<param-value>Online Book Shop</param-value>
+	</context-param>
+	<context-param>
+       <param-name>color</param-name>
+       <param-value>pink</param-value>
+    </context-param>
+  
+</web-app>
